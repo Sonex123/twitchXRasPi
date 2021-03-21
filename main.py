@@ -4,8 +4,8 @@ import ssl
 import random
 import RPi.GPIO as GPIO
 
-erlaubt = ['sonex123']
-mods = ['sonex123bot']
+erlaubt = [''] #Trage hier die Twitchnamen derer ein, welche das Licht steuern dürfen, wenn mods die Steuerung generell freigegeben haben. Mods müssen hier nicht extra eingetragen werden.
+mods = [''] #Trage hier den Twitchnamen derer ein, welche bestimmen dürfen, wann das Licht gesteuert werden darf. Füge bei mehreren Person jede Person in ein Listenelement
 mein_licht = False
 r_pin = 27
 g_pin = 22
